@@ -1,3 +1,4 @@
+<?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <h1>Автомобили</h1>
 <p>
 <?if(count($data['cars'])):?>

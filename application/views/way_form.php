@@ -1,3 +1,4 @@
+<?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <h1>Создание/редактирование маршрута</h1>
 <p>
 	<form method="POST" enctype="multipart/form-data" id="form">

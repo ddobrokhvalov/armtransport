@@ -1,3 +1,4 @@
+<?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <?$traffic_types = array('direct'=>'Прямое', 'opposite'=>'Обратное')?>
 <?$point_types = array('start'=>'Начало рейса', 'pause'=>'Остановка', 'continue'=>'Продолжение пути', 'end'=>'Окончание рейса')?>
 <?if($data['traffic']):?>
