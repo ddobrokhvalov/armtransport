@@ -1,7 +1,7 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <?$traffic_types = array('direct'=>'Прямое', 'opposite'=>'Обратное')?>
 <?$point_types = array('start'=>'Начало рейса', 'pause'=>'Остановка', 'continue'=>'Продолжение пути', 'end'=>'Окончание рейса')?>
-<h1>Отчет</h1>
+<h3>Отчет</h3>
 <p>
 <a href="/dispatcher/report.php?period=day">За день</a> <a href="/dispatcher/report.php?period=week">За неделю</a> <a href="/dispatcher/report.php?period=month">За месяц</a>
 </p>

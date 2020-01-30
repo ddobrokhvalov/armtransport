@@ -45,6 +45,7 @@ h2  {
 
 h3 {
 	font-size: 1.25em;
+	font-style: italic;
 }
 
 h4 {
@@ -182,7 +183,7 @@ a {
 #page {
 	margin: 0;
 	position: relative;
-	width: 900px;
+	min-width: 900px;
 	padding: 20px 40px 0 40px;
 }
 
@@ -214,7 +215,7 @@ a {
 	padding: 40px 40px 0 40px;
 	color: #353535;
 	position: relative;
-	width: 898px;
+	min-width: 898px;
 }
 
 #page-bottom a {
@@ -240,7 +241,7 @@ a {
 }
 
 #page-bottom-content {
-	width: 615px;
+	min-width: 615px;
 	margin: 0 0 0 290px;
 }
 
@@ -264,7 +265,7 @@ a {
 }
 
 #wrapper {
-	width: 978px;
+	min-width: 978px;
 	position: relative;
 	margin: 0 auto 0 auto;
 }
@@ -285,6 +286,7 @@ a {
 
 .box table {
 	border-collapse:collapse;
+	width: 100%;
 }
 
 .box table, th, td {

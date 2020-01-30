@@ -1,7 +1,7 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <?$traffic_types = array('direct'=>'Прямое', 'opposite'=>'Обратное')?>
 <?$point_types = array('start'=>'Начало рейса', 'pause'=>'Остановка', 'continue'=>'Продолжение пути', 'end'=>'Окончание рейса')?>
-<h1>Управление рейсом</h1>
+<h3>Управление рейсом</h3>
 <p>
 	<table>
 		<tr>
@@ -23,7 +23,7 @@
 	</table>
 </p>
 <p>
-	<h2>Пункты рейса</h2>
+	<h3>Пункты рейса</h3>
 	<table>
 		<tr>
 			<td>Наименование</td>

@@ -1,5 +1,5 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
-<h1>Маршруты</h1>
+<h3>Маршруты</h3>
 <p>
 <?if(count($data['ways'])):?>
 	<table class="sortable">

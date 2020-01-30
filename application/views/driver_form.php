@@ -1,5 +1,5 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
-<h1>Создание/редактирование водителя</h1>
+<h3>Данные о водителе</h3>
 <p>
 	<form method="POST" enctype="multipart/form-data" id="form">
 		<table>

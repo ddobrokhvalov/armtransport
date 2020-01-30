@@ -1,6 +1,6 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
 <?$traffic_types = array('direct'=>'Прямое', 'opposite'=>'Обратное')?>
-<h1>Рейсы</h1>
+<h3>Рейсы</h3>
 <p>
 <?if(count($data['traffics'])):?>
 	<table class="sortable">

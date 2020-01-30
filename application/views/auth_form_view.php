@@ -1,5 +1,5 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
-<h1>Авторизация</h1>
+<h3>Авторизация</h3>
 <p>
 	<form method="POST" >
 		<table>

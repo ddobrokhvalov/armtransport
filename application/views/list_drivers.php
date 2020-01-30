@@ -1,5 +1,5 @@
 <?require_once $_SERVER["DOCUMENT_ROOT"].'/application/views/header2.php';?>
-<h1>Водители</h1>
+<h3>Водители</h3>
 <p>
 <?if(count($data['drivers'])):?>
 	<table class="sortable">
