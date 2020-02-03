@@ -14,8 +14,9 @@ a:hover {
 
 body {
 	line-height: 1.75em;
-	font-size: 11.5pt;
+	font-size: 14pt;
 	color: #000;
+	background: #0000ff;
 }
 
 body,input {
@@ -30,13 +31,17 @@ h1,h2,h3,h4 {
 	/*text-transform: uppercase;
 	font-weight: normal;
 	font-family: "Open Sans", sans-serif;*/
-	color: #00f;
+	color: #000;
 	margin-bottom: 1em;
 	margin-top: 1em;
 }
 
 h1 {
 	font-size: 1.75em;
+	border: 1px solid #000;
+    width: 260px;
+    display: block;
+    padding: 0 5px;
 }
 
 h2  {
@@ -46,6 +51,10 @@ h2  {
 h3 {
 	font-size: 1.25em;
 	font-style: italic;
+	border: 1px solid #000;
+    width: 260px;
+    display: block;
+    padding: 0 5px;
 }
 
 h4 {
@@ -74,7 +83,7 @@ ul h4 {
 }
 
 a {
-	color: #353535;
+	/*color: #353535;*/
 }
 
 #content {
@@ -99,11 +108,11 @@ a {
 }
 
 #logo {
-	
+	display: inline-block;
 }
 
 #logo a {
-	color: #00f;
+	color: #000;
 	text-decoration: none;
 	font-size: 35px;
 }
@@ -118,14 +127,14 @@ a {
 	/*line-height: 57px;
 	height: 57px;*/
 	font-family: "Open Sans", sans-serif;
-	color: #00f;
-	border-bottom: 1px solid #00f;
+	color: #000;
+	border-bottom: 1px solid #000;
 }
 
 #menu a {
 	text-transform: uppercase;
 	text-decoration: underline;
-	color: #00f;
+	color: #000;
 	font-size: 1.2em;
 }
 
@@ -158,7 +167,7 @@ a {
 #menu .top_menu  li span{
 	text-transform: uppercase;
     text-decoration: underline;
-    color: #00f;
+    color: #000;
     font-size: 1.2em;
     cursor: pointer;
 }
@@ -166,13 +175,13 @@ a {
 #menu .top_menu .top_submenu{
 	display: none;
 	position: absolute;
-	border-left: 1px solid #00f;
-	border-right: 1px solid #00f;
-	border-bottom: 1px solid #00f;
+	border-left: 1px solid #000;
+	border-right: 1px solid #000;
+	border-bottom: 1px solid #000;
 	padding: 10px;
 	top: 100%;
     left: 0;
-    background: #fff;
+    background: #0000ff;
     z-index: 1000;
 }
 
@@ -213,7 +222,7 @@ a {
 
 #page-bottom {
 	padding: 40px 40px 0 40px;
-	color: #353535;
+	/*color: #353535;*/
 	position: relative;
 	min-width: 898px;
 }
@@ -223,7 +232,7 @@ a {
 }
 
 #page-bottom h2, #page-bottom h3, #page-bottom h4 {
-	color: #353535;
+	/*color: #353535;*/
 }
 
 #page-bottom ul {
@@ -290,17 +299,20 @@ a {
 }
 
 .box table, th, td {
-	border: 1px solid #e3e3e3;
+	border: 1px solid #000;
 	padding: 5px;
 }
 .error{
 	color: #f00;
 }
 .user_authorized {
-    position: absolute;
+    /*position: absolute;
     right: 80px;
-    top: 55px;
+    top: 55px;*/
+    margin-left: 50px;
+    display: inline-block;
 }
+
 .error_input{
 	border: 1px solid #f00;
 }
