@@ -48,7 +48,7 @@
 								</tr>
 								<tr>
 									<td colspan="6">
-										<a href="#" id='traffic_points_<?=$way['id']?>_<?=$traffic['id']?>' class='link_traffic_points'>Пункты:
+										<a href="#" id='traffic_points_<?=$way['id']?>_<?=$traffic['id']?>' class='link_traffic_points'>Пункты:</a>
 										<table width="100%" id='table_traffic_points_<?=$way['id']?>_<?=$traffic['id']?>' class='table_traffic_points'>
 											<tr>
 												<th>Наименование</th>
