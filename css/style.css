@@ -16,7 +16,7 @@ body {
 	line-height: 1.75em;
 	font-size: 14pt;
 	color: #000;
-	background: #0000ff;
+	background: #fff;
 }
 
 body,input {
@@ -105,6 +105,7 @@ a {
 #header {
 	padding: 40px 40px 0;
 	position: relative;
+	background: #dfdfdf;
 }
 
 #logo {
@@ -129,6 +130,8 @@ a {
 	font-family: "Open Sans", sans-serif;
 	color: #000;
 	border-bottom: 1px solid #000;
+	margin: 0 -40px;
+    padding: 0 40px;
 }
 
 #menu a {
@@ -181,7 +184,7 @@ a {
 	padding: 10px;
 	top: 100%;
     left: 0;
-    background: #0000ff;
+    background: #dfdfdf;
     z-index: 1000;
 }
 
@@ -329,7 +332,6 @@ a {
 	display: none;
 }
 input, select{
-	background: #00f !important;
     padding: 5px;
     font-size: 14px;
 }
